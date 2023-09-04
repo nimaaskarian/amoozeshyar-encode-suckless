@@ -14,11 +14,11 @@ options:
 enc-am: enc-am.rs
 	$(CC) enc-am.rs -o enc-am
 
-install: enc-am install-options:
+install: enc-am install-options
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
 	cp -f enc-am $(DESTDIR)$(PREFIX)/bin
 
-uninstall: 
+uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/enc-am
 
 clean:
