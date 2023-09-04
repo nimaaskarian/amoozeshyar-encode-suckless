@@ -1,4 +1,4 @@
-# Amoozeshyar decode suckless
+# Amoozeshyar encode suckless
 
 https://github.com/nimaaskarian/amoozeshyar-encode-suckless/assets/88832088/2de7eb86-abbd-43f7-a251-16a6736bc0c8
 
