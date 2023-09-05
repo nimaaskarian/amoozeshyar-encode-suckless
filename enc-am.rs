@@ -11,7 +11,7 @@ fn main() {
 }
 
 fn print_converted(mut line: String) {
-    const REPLACE_WITH_PERCENT_SIGN: &str = "کی";
+    const REPLACE_WITH_PERCENT_SIGN: &str = " کی";
 
     for ch in REPLACE_WITH_PERCENT_SIGN.chars() {
         line = line.replace(ch, "%")
